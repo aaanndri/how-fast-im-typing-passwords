@@ -23,7 +23,7 @@ ended = False
 def main():
     """ Displays available menu options """
 
-    print("     Type Speed by Areeb - github.com/areebbeigh")
+    print("     Type Speed by Andri - github.com/aaanndri")
     print("\n")
     print("     1. Play")
     print("     2. View records")
@@ -41,11 +41,11 @@ def main():
 
 
 def get_words():
-    """ Returns an array of words extracted from words.txt """
+    """ Returns an array of words extracted from passwords.txt """
 
     words = []
 
-    with open('words.txt', 'r') as f:
+    with open('passwords.txt', 'r') as f:
         words = f.read().split("\n")
 
     return words
